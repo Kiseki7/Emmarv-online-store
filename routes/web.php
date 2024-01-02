@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//front-end of the website
 Route::get('/', function () {
     return view('front.components.home');
 });
@@ -29,6 +30,7 @@ Route::get('/contact', function () {
     return view('front.components.contact');
 });
 
-Route::get('/dashboard', function () {
-    return view('back.components.dasboard');
-});
+
+
+
+
